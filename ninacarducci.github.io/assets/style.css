@@ -22,24 +22,30 @@ header .name {
     font-size: 26px;
 }
 
-.nav ul {
+nav ul {
     display: flex;
     list-style-type: none;
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.nav li {
+nav li {
     padding-inline: 10px;
 }
 
-.nav a {
+nav a {
     text-decoration: none;
     color: #000;
 }
 
 .social-link img {
+    height: 20px;
     width: 20px;
+}
+
+.carousel-item .active {
+    width: 100vw;
+    height: auto;
 }
 
 #about {
@@ -350,12 +356,12 @@ input[type="submit"] {
         flex-direction: column;
         padding-inline: 0;
     }
-    .top-header .nav,
-    .top-header .nav ul {
+    .top-header nav,
+    .top-header nav ul {
         width: 100%;
         padding: 0 0 0 0;
     }
-    .top-header .nav li {
+    .top-header nav li {
         flex: 1;
         padding-block: 1em;
         text-align: center;
